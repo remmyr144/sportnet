@@ -11,6 +11,41 @@ margin: 0;
 padding: 0;
 }
 
+nav {
+    background-color: navy;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .brand {
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 16px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-decoration: none;
+}
+
 header{
 background-color: navy; 
 color: white; 
@@ -28,7 +63,8 @@ margin-bottom: 20px;
 
 .card{
 border: 1px solid #ddd; 
-padding: 10px;  
+padding: 10px; 
+width: 100%; 
 width: 300px;
 margin: 10px;
 }
